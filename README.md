@@ -1,8 +1,4 @@
 # thewebsite
 website
 
-[will make later (procrastination wins)](#why)
-
-
-## why
-f yo
+[will make later (procrastination wins)](https://www.youtube.com/watch?v=IJ-PVdapaDU)
