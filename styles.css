@@ -1,9 +1,17 @@
+@font-face {
+  font-family: "comic";
+  src: url("comic.ttf");
+}
+
 body {
     background-color: rgb(73, 73, 73);
+    font-size: 300%;
 }
 h1 {
     color: rgb(255, 255, 255);
+    font-family: "comic";
 }
 p {
     color: rgb(173, 173, 173);
+    font-family: Helvetica
 }
