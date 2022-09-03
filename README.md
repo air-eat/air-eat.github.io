@@ -2,6 +2,6 @@
 website
 
 # ????
-work in progress!
+kinda finished, still want to polish it
 
-[hopefully gonna finish tomorrow](https://www.youtube.com/watch?v=IJ-PVdapaDU)
+[hopefully gonna polish tomorrow](https://www.youtube.com/watch?v=IJ-PVdapaDU)
