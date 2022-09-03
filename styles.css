@@ -1,17 +1,77 @@
 @font-face {
   font-family: "comic";
-  src: url("comic.ttf");
+  src: url("fonts/comic.ttf");
 }
 
-body {
-    background-color: rgb(73, 73, 73);
+body {  background-color: rgb(40, 40, 40);  
 }
-h1 {
-    color: rgb(255, 255, 255);
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(197, 197, 197);
     font-family: "comic";
-    font-size: 200%;
+    font-size: 250%;
+    /* border: 2px solid rgb(131, 131, 131); */
 }
-p {
+p  {
     color: rgb(173, 173, 173);
-    font-family: Helvetica
+    font-family: Helvetica;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+
+.link {
+  background-color: rgb(60, 131, 131);
+  color: rgb(235, 235, 235);
+  border: 1px solid rgb(131, 131, 131);
+  width: 8%
+}
+
+.iframe-parent {
+  display: flex;
+  height: 83%;
+  justify-content: space-around;
+  gap: 5%;
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.topbar {
+  background-image: url('misc/bannertop.png');
+  display: flex;
+  /* border:1px solid rgb(131, 131, 131); */
+  max-height: 100%;
+  justify-content: center;
+  height: 150px;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+.iframe-main {
+  flex-grow: 4;
+  max-width: 1000px;
+  max-height: 100%;
+}
+
+.iframe-button {
+  flex-shrink: 1;
+  max-width: 270x;
+  max-height: 100%;
+}
+
+.spaceleft {
+  /* background-image: url('misc/bannerleft.png'); 
+  border:1px solid rgb(131, 131, 131); */
+  flex-grow: 1;
+  max-height: 100%;
+}
+
+.spaceright {
+  /* background-image: url('misc/bannerright.png');
+  border:1px solid rgb(131, 131, 131); */
+  flex-grow: 1;
+  max-height: 100%;
 }
