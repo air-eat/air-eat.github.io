@@ -3,6 +3,6 @@ website
 [link to said website](https://air-eat.github.io)
 
 # ????
-kinda finished, still want to polish it
+i did the a website
 
-[hopefully gonna polish tomorrow](https://www.youtube.com/watch?v=IJ-PVdapaDU)
+[is ok](https://www.youtube.com/watch?v=IJ-PVdapaDU)

@@ -1,9 +1,11 @@
 @font-face {
   font-family: "comic";
   src: url("fonts/comic.ttf");
-}
+} 
 
-body {  background-color: rgb(40, 40, 40);  
+body {  
+  background-color: rgb(40, 40, 40); 
+  background-image: url('misc/background_night.png'); 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,8 +14,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 250%;
     /* border: 2px solid rgb(131, 131, 131); */
 }
+
 p  {
-    color: rgb(173, 173, 173);
     font-family: Helvetica;
 }
 
@@ -24,22 +26,32 @@ p  {
 }
 
 .link {
-  background-color: rgb(60, 131, 131);
-  color: rgb(235, 235, 235);
-  border: 1px solid rgb(131, 131, 131);
+  background-image: url('misc/empty.gif');
+  background-size: cover;
+  text-align: center; 
+  margin-top: 8px;
+  /* background-color: rgb(60, 131, 131); 
+  border: 1px solid rgb(131, 131, 131);*/
+  color: rgb(10, 10, 10);
   width: 100px;
+}
+
+.blog1, .blog2 {
+  color: rgb(173, 173, 173);
+  background-color: rgb(80,80,80); 
+  padding: 5px
 }
 
 .iframe-parent {
   display: flex;
-  height: 75%;
+  height: 70%;
   justify-content: space-around;
   gap: 5%;
   /* border: 1px solid rgb(255, 0, 0); */
 }
 
-.topbar {
-  background-image: url('misc/bannertop.png');
+.top {
+  /* background-image: url('misc/bannertop_test.png'); */
   display: flex;
   /* border:1px solid rgb(131, 131, 131); */
   max-height: 100%;
@@ -48,6 +60,12 @@ p  {
   flex-direction: column;
   padding: 0px;
   margin: 0px;
+  color: rgb(173, 173, 173);
+}
+
+.topbar {
+  display: flex;
+  justify-content: center;
 }
 
 .iframe-main {
