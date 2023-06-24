@@ -3,3 +3,6 @@ now abandoned [website](https://air-eat.github.io) that i haven't updated and am
 
 might start working on it again, who knows
 
+## todo:
+- do something with [freedns](https://freedns.afraid.org/) relating to this
+
